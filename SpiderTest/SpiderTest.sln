@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiderTest", "SpiderTest\SpiderTest.csproj", "{90E5B46D-6610-43F6-AB43-82EAF0EB660E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Common", "Test.Common\Test.Common.csproj", "{CCBAB4BB-305A-4E9A-86AE-1CE1FDB62435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.logic", "Test.logic\Test.logic.csproj", "{71CD4D0B-57C2-4A1A-822E-9FD2FFC447A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Model", "Test.Model\Test.Model.csproj", "{B6A7EEA7-DD83-4E54-A1AA-39F728B31513}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MyPython", "MyPython\MyPython.pyproj", "{4003B79A-4CDD-4222-8C9A-6635C7BA62D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBook.Infrastructure.WCF", "OpenBook.Infrastructure.WCF\OpenBook.Infrastructure.WCF.csproj", "{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90E5B46D-6610-43F6-AB43-82EAF0EB660E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E5B46D-6610-43F6-AB43-82EAF0EB660E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E5B46D-6610-43F6-AB43-82EAF0EB660E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E5B46D-6610-43F6-AB43-82EAF0EB660E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBAB4BB-305A-4E9A-86AE-1CE1FDB62435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBAB4BB-305A-4E9A-86AE-1CE1FDB62435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBAB4BB-305A-4E9A-86AE-1CE1FDB62435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBAB4BB-305A-4E9A-86AE-1CE1FDB62435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CD4D0B-57C2-4A1A-822E-9FD2FFC447A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CD4D0B-57C2-4A1A-822E-9FD2FFC447A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CD4D0B-57C2-4A1A-822E-9FD2FFC447A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CD4D0B-57C2-4A1A-822E-9FD2FFC447A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A7EEA7-DD83-4E54-A1AA-39F728B31513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A7EEA7-DD83-4E54-A1AA-39F728B31513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A7EEA7-DD83-4E54-A1AA-39F728B31513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A7EEA7-DD83-4E54-A1AA-39F728B31513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4003B79A-4CDD-4222-8C9A-6635C7BA62D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4003B79A-4CDD-4222-8C9A-6635C7BA62D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
