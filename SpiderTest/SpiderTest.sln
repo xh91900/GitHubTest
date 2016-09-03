@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiderTest", "SpiderTest\SpiderTest.csproj", "{90E5B46D-6610-43F6-AB43-82EAF0EB660E}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBook.Infrastructure.WCF", "OpenBook.Infrastructure.WCF\OpenBook.Infrastructure.WCF.csproj", "{1DF9E317-D39D-45FF-B548-8928A5D3FD0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticePlot", "PracticePlot\PracticePlot.csproj", "{BAC779C9-0149-47B1-A340-FE19F1830218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82ADC8F1-1AF9-4549-BC4A-F6FCA9EAE98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC779C9-0149-47B1-A340-FE19F1830218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC779C9-0149-47B1-A340-FE19F1830218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC779C9-0149-47B1-A340-FE19F1830218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC779C9-0149-47B1-A340-FE19F1830218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
