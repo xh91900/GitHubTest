@@ -7,3 +7,6 @@ GitHub测试1
 
 C#组件系列——又一款Excel处理神器Spire.XLS，你值得拥有
 http://www.cnblogs.com/landeanfen/p/5888973.html
+
+c#操作数据库和批量插入数据性能比较
+http://blog.csdn.net/amandag/article/details/6393697
