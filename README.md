@@ -10,3 +10,35 @@ http://www.cnblogs.com/landeanfen/p/5888973.html
 
 c#操作数据库和批量插入数据性能比较
 http://blog.csdn.net/amandag/article/details/6393697
+
+
+#region 按钮点击多次事件转换为1次
+        public void MoreClickConvertOneClick(MoreClickEvent moreClick)
+        {
+            if (moreClick == null)
+                return;
+
+            var nowTime = DateTime.Now;
+            var span = nowTime - lastClickTime;
+            lastClickTime = nowTime;
+            if (span.TotalMilliseconds > 300)
+            {
+                if (Timer != null)
+                {
+                    Timer.Stop();
+                }
+                Timer = new DispatcherTimer { Interval = new TimeSpan(0, 0, 0, 0, 300) };
+                Timer.Tick += (s, e1) =>
+                {
+                    Timer.Stop();
+                    moreClick();
+                };
+                Timer.Start();
+            }
+            else
+            {
+                Timer.Stop();
+                moreClick();
+            }
+        }
+        #endregion
