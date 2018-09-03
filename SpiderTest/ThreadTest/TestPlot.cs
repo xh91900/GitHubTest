@@ -56,7 +56,7 @@ namespace ThreadTest
             System.Threading.ManualResetEvent[] _ManualEvents = new System.Threading.ManualResetEvent[10];
             for (int i = 0; i < 10; i++)
             {
-                _ManualEvents[i] = new System.Threading.ManualResetEvent(false);
+                _ManualEvents[i] = new System.Threading.ManualResetEvent(false);//将初始状态设置为非终止，需要等待。
                 System.Threading.ThreadPool.QueueUserWorkItem(new System.Threading.WaitCallback(testMethod), _ManualEvents[i]);
             }
             System.Threading.WaitHandle.WaitAll(_ManualEvents);
@@ -68,7 +68,7 @@ namespace ThreadTest
         {
             //TODO: Add your code here
             System.Threading.ManualResetEvent e = (System.Threading.ManualResetEvent)objEvent;
-            e.Set();
+            e.Set();//设置状态为终止，代表此线程已执行完毕。
 
             Queue<int> q = new Queue<int>();// 队列 先进先出
             q.Enqueue(1);// 进队
